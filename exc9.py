@@ -1,0 +1,15 @@
+# list in python
+fruits=["apple","pineapple","orange","banana"]
+print(fruits)
+fruits.append("madhav")
+print(fruits)
+fruits.remove("madhav")
+print(fruits)
+fruits.insert(5,"paudel")
+print(fruits)
+fruits.sort()
+print(fruits)
+fruits.reverse()
+print(fruits)
+fruits.clear()
+print(fruits)
