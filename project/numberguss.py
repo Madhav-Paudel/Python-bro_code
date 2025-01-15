@@ -19,8 +19,11 @@ while guess_incorrect:
             T_guess+=1
             if value== answer:
              guess_incorrect=False
+            
             elif value <answer:
                 print("Your answer is short by some point")
+                print(f"Please enter the number between {lowest} and {highest}")
+           
             else:
                 print("Your answer is large by some point") 
             
