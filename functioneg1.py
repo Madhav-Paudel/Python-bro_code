@@ -1,7 +1,7 @@
-def happy_birthday():
-    print("hello i am Madhav and this is my birthday month")
-    print("i love ai and ml but i am quite lazy ")
+def happy_birthday(x,y):
+    print(f"happy birthday {x}")
+    print(f"you are {y} year old ")
     print()
 
-happy_birthday()
-happy_birthday()
+happy_birthday("madhav",20)
+happy_birthday("john",20)
