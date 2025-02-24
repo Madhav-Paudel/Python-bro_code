@@ -10,7 +10,7 @@ def set_time(alarm_clock):
 
     while is_running:
         current_time = datetime.datetime.now().strftime("%H:%M:%S")
-        print(current_time)
+        print(current_time)  
         if current_time == alarm_clock:
             print("WAKE UP!")
             pygame.mixer.init()
@@ -20,7 +20,7 @@ def set_time(alarm_clock):
 
             while pygame.mixer.music.get_busy():
                 time.sleep(1)
-                
+
             is_running = False
 
         time.sleep(1)
